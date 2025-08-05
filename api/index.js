@@ -5,7 +5,7 @@ const app = express();
 // Ganti ini kalau kamu mau ubah API key
 const VALID_API_KEY = 'bagus';
 
-app.get('/tools/bily', async (req, res) => {
+app.get('/tools/bitly', async (req, res) => {
   const { url, apikey } = req.query;
 
   if (!apikey || apikey !== VALID_API_KEY) {
