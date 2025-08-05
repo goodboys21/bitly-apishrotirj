@@ -47,7 +47,7 @@ app.get('/tools/bily', async (req, res) => {
     return res.json({
       status: true,
       creator: 'Bagus Bahril',
-      short_url: data.link
+      result: data.link
     });
 
   } catch (err) {
